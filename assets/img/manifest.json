@@ -1,0 +1,575 @@
+[
+ {
+  "name": "hero",
+  "file": "assets/img/hero",
+  "widths": [
+   640,
+   1200,
+   1920
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/20838862/2a000001a0a5941d34508f90306135440fd4/orig",
+  "raw": "ya051",
+  "zone": "hero",
+  "alt": "Чёрно-серый рукав с ангелами на фоне оливковой стены студии, Tattoo Vintage",
+  "width": 1920,
+  "height": 2381,
+  "ratio": 1.24
+ },
+ {
+  "name": "sleeve-scandi",
+  "file": "assets/img/sleeve-scandi",
+  "widths": [
+   640,
+   1200,
+   1920
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/18133168/2a0000019ad485731446bd7b69a2cec7a4fb/orig",
+  "raw": "ya010",
+  "zone": "sleeves",
+  "alt": "Чёрно-серый рукав в скандинавском стиле, Tattoo Vintage",
+  "width": 1920,
+  "height": 2560,
+  "ratio": 1.333
+ },
+ {
+  "name": "sleeve-faith",
+  "file": "assets/img/sleeve-faith",
+  "widths": [
+   640,
+   1200,
+   1920
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/17637863/2a0000019bc187b177e2d538dc1d3d9b42e9/orig",
+  "raw": "ya034",
+  "zone": "sleeves",
+  "alt": "Чёрно-серый рукав с портретом и облаками, Tattoo Vintage",
+  "width": 1920,
+  "height": 2560,
+  "ratio": 1.333
+ },
+ {
+  "name": "sleeve-dragon",
+  "file": "assets/img/sleeve-dragon",
+  "widths": [
+   640,
+   1200,
+   1920
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/17637863/2a0000019ea6da656e02ac2587bf193cab03/orig",
+  "raw": "ya043",
+  "zone": "sleeves",
+  "alt": "Рукав с драконом в чёрно-сером, Tattoo Vintage",
+  "width": 1920,
+  "height": 2560,
+  "ratio": 1.333
+ },
+ {
+  "name": "sleeve-full",
+  "file": "assets/img/sleeve-full",
+  "widths": [
+   640,
+   1200,
+   1440
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/18141736/2a0000019d9170cd4c3b46f344f1d1bb2a5a/orig",
+  "raw": "ya044",
+  "zone": "sleeves",
+  "alt": "Полный рукав, чёрно-серый реализм, Tattoo Vintage",
+  "width": 1440,
+  "height": 1920,
+  "ratio": 1.333
+ },
+ {
+  "name": "sleeve-lilies",
+  "file": "assets/img/sleeve-lilies",
+  "widths": [
+   640,
+   1104
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/21148955/2a000001a10745e8928c5301236f817d621d/orig",
+  "raw": "ya045",
+  "zone": "sleeves",
+  "alt": "Женский рукав с цветами и драконом, Tattoo Vintage",
+  "width": 1104,
+  "height": 1920,
+  "ratio": 1.739
+ },
+ {
+  "name": "sleeve-samurai",
+  "file": "assets/img/sleeve-samurai",
+  "widths": [
+   640,
+   1200,
+   1403
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/18777850/2a000001a03f6de0363ba2117bcfc4df4759/orig",
+  "raw": "ya054",
+  "zone": "sleeves",
+  "alt": "Рукав с самураем, чёрный и красный, Tattoo Vintage",
+  "width": 1403,
+  "height": 2341,
+  "ratio": 1.669
+ },
+ {
+  "name": "sleeve-olive",
+  "file": "assets/img/sleeve-olive",
+  "widths": [
+   640,
+   1200,
+   1280
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/18785127/2a0000019ded846f02bd11989da34617d77b/orig",
+  "raw": "ya035",
+  "zone": "sleeves",
+  "alt": "Женский рукав на фоне оливковой стены, Tattoo Vintage",
+  "width": 1280,
+  "height": 1707,
+  "ratio": 1.334
+ },
+ {
+  "name": "forearm-madonna",
+  "file": "assets/img/forearm-madonna",
+  "widths": [
+   640,
+   1200,
+   1920
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/16136444/2a0000019bc187a6a9dffb4b2efc2e5c11bb/orig",
+  "raw": "ya041",
+  "zone": "sleeves",
+  "alt": "Реалистичный портрет с чётками на предплечье, Tattoo Vintage",
+  "width": 1920,
+  "height": 2560,
+  "ratio": 1.333
+ },
+ {
+  "name": "back-gta",
+  "file": "assets/img/back-gta",
+  "widths": [
+   640,
+   1200,
+   1440
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/20275193/2a0000019d95733b1890e7a75bae2d8ce9ce/orig",
+  "raw": "ya001",
+  "zone": "backs",
+  "alt": "Чёрно-серая татуировка на всю спину на тему GTA, Tattoo Vintage",
+  "width": 1440,
+  "height": 1920,
+  "ratio": 1.333
+ },
+ {
+  "name": "back-angels",
+  "file": "assets/img/back-angels",
+  "widths": [
+   640,
+   1200,
+   1280
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/16480550/2a0000019e746bdaa3d23b72b18628c822a6/orig",
+  "raw": "ya023",
+  "zone": "backs",
+  "alt": "Чёрно-серая татуировка на спине с ангелами и надписью, Tattoo Vintage",
+  "width": 1280,
+  "height": 1707,
+  "ratio": 1.334
+ },
+ {
+  "name": "leg-portraits",
+  "file": "assets/img/leg-portraits",
+  "widths": [
+   640,
+   1200,
+   1500
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/18116908/2a0000019bc1879d34825a1ae862a8754b3f/orig",
+  "raw": "ya026",
+  "zone": "legs",
+  "alt": "Нога с женскими портретами и орнаментом, Tattoo Vintage",
+  "width": 1500,
+  "height": 2560,
+  "ratio": 1.707
+ },
+ {
+  "name": "leg-caesar",
+  "file": "assets/img/leg-caesar",
+  "widths": [
+   640,
+   1200,
+   2000
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/21012689/2a000001a0e11f7ae787dce26c7ccc60e834/orig",
+  "raw": "ya048",
+  "zone": "legs",
+  "alt": "Статуя в чёрно-сером на икре, Tattoo Vintage",
+  "width": 3000,
+  "height": 4000,
+  "ratio": 1.333
+ },
+ {
+  "name": "leg-familia",
+  "file": "assets/img/leg-familia",
+  "widths": [
+   640,
+   1200,
+   1920
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/19580059/2a0000019c1f000da546bdc4c8c8ec76afd9/orig",
+  "raw": "ya016",
+  "zone": "legs",
+  "alt": "Надпись Familia и компас на голени, Tattoo Vintage",
+  "width": 1920,
+  "height": 2355,
+  "ratio": 1.227
+ },
+ {
+  "name": "leg-red",
+  "file": "assets/img/leg-red",
+  "widths": [
+   640,
+   1200,
+   2000
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/18108291/2a0000019e2a504fd19b435abfb4e197d176/orig",
+  "raw": "ya030",
+  "zone": "legs",
+  "alt": "Татуировка с красными акцентами на голени, Tattoo Vintage",
+  "width": 3255,
+  "height": 5207,
+  "ratio": 1.6
+ },
+ {
+  "name": "small-hands",
+  "file": "assets/img/small-hands",
+  "widths": [
+   640,
+   1200
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/17765111/2a0000019d5471131575d97a54a9d23fc6cb/orig",
+  "raw": "ya038",
+  "zone": "small",
+  "alt": "Молитвенные руки и надпись «Спаси и сохрани» на кисти, Tattoo Vintage",
+  "width": 1200,
+  "height": 1600,
+  "ratio": 1.333
+ },
+ {
+  "name": "small-script",
+  "file": "assets/img/small-script",
+  "widths": [
+   640,
+   843
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/18166435/2a0000019d1f13df2b74fbdae9312ba62442/orig",
+  "raw": "ya042",
+  "zone": "small",
+  "alt": "Надпись Until the very end под ключицей, Tattoo Vintage",
+  "width": 843,
+  "height": 1352,
+  "ratio": 1.604
+ },
+ {
+  "name": "small-dagger",
+  "file": "assets/img/small-dagger",
+  "widths": [
+   640,
+   1200,
+   1920
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/18032027/2a000001a0e200264b5d2ac3f27043d120f4/orig",
+  "raw": "ya047",
+  "zone": "small",
+  "alt": "Кинжал с надписью вдоль предплечья, Tattoo Vintage",
+  "width": 1920,
+  "height": 2560,
+  "ratio": 1.333
+ },
+ {
+  "name": "small-ankh",
+  "file": "assets/img/small-ankh",
+  "widths": [
+   640,
+   1200,
+   2000
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/20158651/2a0000019fdc4ac8f5eb9d636e254434676d/orig",
+  "raw": "ya056",
+  "zone": "small",
+  "alt": "Маленький анх на шее, файнлайн, Tattoo Vintage",
+  "width": 5712,
+  "height": 7616,
+  "ratio": 1.333
+ },
+ {
+  "name": "small-lilies",
+  "file": "assets/img/small-lilies",
+  "widths": [
+   640,
+   1200,
+   1551
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/19546938/2a0000019ae6993691adfbebf7025a56185f/orig",
+  "raw": "ya039",
+  "zone": "small",
+  "alt": "Лилии под ключицей, файнлайн, Tattoo Vintage",
+  "width": 1551,
+  "height": 1460,
+  "ratio": 0.941
+ },
+ {
+  "name": "small-thorns",
+  "file": "assets/img/small-thorns",
+  "widths": [
+   640,
+   1200,
+   1290
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/19579876/2a0000019f7bdd9682402095f200482fb9a6/orig",
+  "raw": "ya063",
+  "zone": "small",
+  "alt": "Графичный орнамент вдоль предплечья, Tattoo Vintage",
+  "width": 1290,
+  "height": 1984,
+  "ratio": 1.538
+ },
+ {
+  "name": "cover-dragon",
+  "file": "assets/img/cover-dragon",
+  "widths": [
+   640,
+   1200,
+   2000
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/16478002/2a0000019bac4e99516cdf36bc94f5091095/orig",
+  "raw": "ya021",
+  "zone": "covers",
+  "alt": "Перекрытие старой татуировки драконом на груди, Tattoo Vintage",
+  "width": 2215,
+  "height": 2560,
+  "ratio": 1.156
+ },
+ {
+  "name": "cover-clown",
+  "file": "assets/img/cover-clown",
+  "widths": [
+   600
+  ],
+  "source": "Telegram",
+  "url": "https://t.me/tattoovintage888/320",
+  "raw": "tg320-2",
+  "zone": "covers",
+  "alt": "Перекрытие старой работы: новый эскиз на предплечье, Tattoo Vintage",
+  "width": 600,
+  "height": 800,
+  "ratio": 1.333
+ },
+ {
+  "name": "dry-leg",
+  "file": "assets/img/dry-leg",
+  "widths": [
+   600
+  ],
+  "source": "Telegram",
+  "url": "https://t.me/tattoovintage888/330",
+  "raw": "tg330-1",
+  "zone": "drying",
+  "alt": "Нога в чёрно-сером после первого дня работы, Tattoo Vintage",
+  "width": 600,
+  "height": 800,
+  "ratio": 1.333
+ },
+ {
+  "name": "dry-sleeve",
+  "file": "assets/img/dry-sleeve",
+  "widths": [
+   600
+  ],
+  "source": "Telegram",
+  "url": "https://t.me/tattoovintage888/331",
+  "raw": "tg331-1",
+  "zone": "drying",
+  "alt": "Законченный внешний рукав, Tattoo Vintage",
+  "width": 600,
+  "height": 800,
+  "ratio": 1.333
+ },
+ {
+  "name": "dry-black-dragon",
+  "file": "assets/img/dry-black-dragon",
+  "widths": [
+   640,
+   1200,
+   1920
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/19708557/2a0000019f6f55972d71c4bd9e13328e588f/orig",
+  "raw": "ya065",
+  "zone": "drying",
+  "alt": "Дракон в чёрно-сером на плече и руке, Tattoo Vintage",
+  "width": 1920,
+  "height": 2560,
+  "ratio": 1.333
+ },
+ {
+  "name": "dry-red-sleeve",
+  "file": "assets/img/dry-red-sleeve",
+  "widths": [
+   640,
+   1200,
+   1920
+  ],
+  "source": "Яндекс Карты",
+  "url": "https://avatars.mds.yandex.net/get-altay/12838938/2a0000019d254d3c648462d521288b270176/orig",
+  "raw": "ya029",
+  "zone": "drying",
+  "alt": "Рукав в японском стиле с красным, Tattoo Vintage",
+  "width": 1920,
+  "height": 2560,
+  "ratio": 1.333
+ },
+ {
+  "name": "pair1-before",
+  "file": "assets/img/pair1-before",
+  "widths": [
+   300
+  ],
+  "source": "Telegram",
+  "url": "https://t.me/tattoovintage888/320",
+  "raw": "tg320-1",
+  "zone": "pairs",
+  "alt": "Старая татуировка на предплечье до перекрытия",
+  "width": 300,
+  "height": 600,
+  "ratio": 2
+ },
+ {
+  "name": "pair1-after",
+  "file": "assets/img/pair1-after",
+  "widths": [
+   300
+  ],
+  "source": "Telegram",
+  "url": "https://t.me/tattoovintage888/320",
+  "raw": "tg320-2",
+  "zone": "pairs",
+  "alt": "То же предплечье после перекрытия, Tattoo Vintage",
+  "width": 300,
+  "height": 600,
+  "ratio": 2
+ },
+ {
+  "name": "pair2-before",
+  "file": "assets/img/pair2-before",
+  "widths": [
+   330
+  ],
+  "source": "Telegram",
+  "url": "https://t.me/tattoovintage888/294",
+  "raw": "tg294-2",
+  "zone": "pairs",
+  "alt": "Расплывшиеся птицы на запястье до исправления",
+  "width": 330,
+  "height": 480,
+  "ratio": 1.455
+ },
+ {
+  "name": "pair2-after",
+  "file": "assets/img/pair2-after",
+  "widths": [
+   336
+  ],
+  "source": "Telegram",
+  "url": "https://t.me/tattoovintage888/294",
+  "raw": "tg294-1",
+  "zone": "pairs",
+  "alt": "Птицы на запястье после исправления, Tattoo Vintage",
+  "width": 336,
+  "height": 480,
+  "ratio": 1.429
+ },
+ {
+  "name": "hands-1",
+  "file": "assets/img/hands-1",
+  "widths": [
+   640,
+   1072
+  ],
+  "source": "Telegram (кадр видео)",
+  "url": "https://t.me/tattoovintage888/304",
+  "raw": "v304-t3",
+  "zone": "masters",
+  "alt": "Руки мастера с машинкой над переведённым эскизом",
+  "width": 1072,
+  "height": 1920,
+  "ratio": 1.791
+ },
+ {
+  "name": "hands-2",
+  "file": "assets/img/hands-2",
+  "widths": [
+   640,
+   720
+  ],
+  "source": "Telegram (кадр видео)",
+  "url": "https://t.me/tattoovintage888/162",
+  "raw": "v162-t1",
+  "zone": "masters",
+  "alt": "Руки мастера в чёрных перчатках, сеанс на предплечье",
+  "width": 720,
+  "height": 1280,
+  "ratio": 1.778
+ },
+ {
+  "name": "process",
+  "file": "assets/img/process",
+  "widths": [
+   640,
+   1072
+  ],
+  "source": "Telegram (кадр видео)",
+  "url": "https://t.me/tattoovintage888/280",
+  "raw": "v280-t3",
+  "zone": "process",
+  "alt": "Процесс: заливка чёрных полос на руке",
+  "width": 1072,
+  "height": 1904,
+  "ratio": 1.776
+ },
+ {
+  "name": "piercing",
+  "file": "assets/img/piercing",
+  "widths": [
+   600
+  ],
+  "source": "Telegram",
+  "url": "https://t.me/tattoovintage888/194",
+  "raw": "tg194-1",
+  "zone": "services",
+  "alt": "Пирсинг уха: индастриал и кольца",
+  "width": 600,
+  "height": 640,
+  "ratio": 1.067
+ }
+]

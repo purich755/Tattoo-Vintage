@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tattoo Vintage — тату-студия в Краснодаре</title>
+<meta name="description" content="Чёрно-серый реализм, рукава и спины — от эскиза до последней линии. Два мастера, одна комната, работаем до 02:00. Краснодар, ул. Петра Метальникова, 28.">
+<meta name="theme-color" content="#0C0B0A">
+<meta name="robots" content="noindex">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tattoo Vintage — тату-студия в Краснодаре">
+<meta property="og:description" content="Чёрно-серый реализм, рукава и спины — от эскиза до последней линии. Два мастера, одна комната, работаем до 02:00.">
+<meta property="og:url" content="https://purich755.github.io/Tattoo-Vintage/">
+<meta property="og:image" content="https://purich755.github.io/Tattoo-Vintage/assets/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="preload" href="assets/fonts/cormorant-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/cormorant-500i.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/avif" media="(min-width: 768px)" imagesrcset="assets/img/hero-640.avif 640w, assets/img/hero-1200.avif 1200w, assets/img/hero-1920.avif 1920w" imagesizes="50vw" fetchpriority="high">
+<link rel="preload" as="image" type="image/avif" media="(max-width: 767px)" imagesrcset="assets/img/hero-640.avif 640w, assets/img/hero-1200.avif 1200w, assets/img/hero-1920.avif 1920w" imagesizes="100vw" fetchpriority="high">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/sections.css">
+<script>
+  // Прелоадер — один раз за сессию; хранилище может быть недоступно (приватный режим) — тогда показываем.
+  (function () {
+    var seen = false;
+    try { seen = sessionStorage.getItem('tv-pre') === '1'; } catch (e) {}
+    if (!seen && !matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.setAttribute('data-pre', '');
+  })();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TattooParlor",
+  "name": "Tattoo Vintage",
+  "description": "Тату-студия в Краснодаре: чёрно-серый реализм, рукава, спины, перекрытия, пирсинг.",
+  "image": "https://purich755.github.io/Tattoo-Vintage/assets/img/og.jpg",
+  "url": "https://purich755.github.io/Tattoo-Vintage/",
+  "telephone": "+7 996 505-20-31",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "ул. Петра Метальникова, 28, вход 2, цокольный этаж, помещение 6/8",
+    "addressLocality": "Краснодар",
+    "addressCountry": "RU"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 45.095541, "longitude": 39.005532 },
+  "sameAs": ["https://t.me/tattoovintage888", "https://vk.ru/tattoo5632"],
+  "paymentAccepted": "Наличные, перевод",
+  "amenityFeature": [
+    { "@type": "LocationFeatureSpecification", "name": "Парковка", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Велопарковка", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Wi-Fi", "value": true }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">К содержанию</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="nazar" viewBox="0 0 40 40"><g fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="20" cy="20" r="18.2"/><circle cx="20" cy="20" r="12.4"/><circle cx="20" cy="20" r="6.6"/></g><circle cx="20" cy="20" r="2.2" fill="currentColor"/></symbol>
+  <filter id="duotone" color-interpolation-filters="sRGB">
+    <feColorMatrix type="matrix" values=".33 .33 .33 0 0  .33 .33 .33 0 0  .33 .33 .33 0 0  0 0 0 1 0"/>
+    <feComponentTransfer><feFuncR type="table" tableValues=".02 .77"/><feFuncG type="table" tableValues=".02 .15"/><feFuncB type="table" tableValues=".02 .11"/></feComponentTransfer>
+  </filter>
+</svg>
+
+<!-- 00 прелоадер -->
+<div class="pre" id="pre" role="status" aria-live="polite">
+  <div class="pre-inner">
+    <p class="mono">Не включайте свет — идёт проявка</p>
+    <p class="pre-count" aria-hidden="true"><span id="pre-n">00:00</span></p>
+    <p class="mono pre-skip">клик или любая клавиша — пропустить</p>
+  </div>
+</div>
+<script>
+  // Прелоадер: счётчик 00:00 → 00:08 за 1.6 с, потом стартует проявка (body.dev). Пропуск кликом или клавишей.
+  (function () {
+    var root = document.documentElement, pre = document.getElementById('pre'), n = document.getElementById('pre-n');
+    function startDev() { document.body.classList.add('dev'); window.__devStart = performance.now(); document.dispatchEvent(new Event('tv:develop')); }
+    if (!root.hasAttribute('data-pre')) { startDev(); return; }
+    var t0 = performance.now(), done = false, D = 1600;
+    function finish() {
+      if (done) return; done = true;
+      try { sessionStorage.setItem('tv-pre', '1'); } catch (e) {}
+      pre.classList.add('is-done'); startDev();
+      setTimeout(function () { pre.hidden = true; }, 480);
+      removeEventListener('keydown', finish); pre.removeEventListener('click', finish);
+    }
+    (function tick(t) {
+      if (done) return;
+      var s = Math.min(8, Math.floor((t - t0) / D * 8.99));
+      n.textContent = '00:0' + s;
+      if (t - t0 >= D) finish(); else requestAnimationFrame(tick);
+    })(t0);
+    addEventListener('keydown', finish); pre.addEventListener('click', finish);
+    setTimeout(finish, 2400);
+  })();
+</script>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="lamp" aria-hidden="true"><div class="lamp-glow"></div><div class="lamp-dot"><span></span></div></div>
+
+<header class="hdr" id="hdr">
+  <div class="wrap hdr-in">
+    <a class="hdr-logo" href="#top" aria-label="Tattoo Vintage — в начало"><svg aria-hidden="true"><use href="#nazar"/></svg><b>TATTOO VINTAGE</b></a>
+    <p class="mono hdr-clock" aria-label="Время в Краснодаре">Краснодар · <span class="clock" data-clock>--<span class="colon">:</span>--</span></p>
+    <nav class="hdr-nav mono" aria-label="Разделы">
+      <a href="#works">Работы</a><a href="#process">Процесс</a><a href="#first">Первый раз</a><a href="#night">Как найти</a>
+    </nav>
+    <a class="btn" data-link="telegram" href="https://t.me/tattoovintage888" target="_blank" rel="noopener">Написать</a>
+    <button class="burger" id="burger" aria-label="Меню" aria-expanded="false" aria-controls="menu"><i></i><i></i></button>
+  </div>
+  <div class="hdr-progress" id="progress"></div>
+</header>
+
+<nav class="menu" id="menu" hidden data-lenis-prevent aria-label="Меню">
+  <div class="menu-list">
+    <a href="#works"><small>04A</small>Работы</a>
+    <a href="#process"><small>07A</small>Процесс</a>
+    <a href="#first"><small>08A</small>Первый раз</a>
+    <a href="#night"><small>10A</small>Как найти</a>
+  </div>
+  <div class="menu-cta">
+    <a class="btn" data-link="telegram" href="https://t.me/tattoovintage888" target="_blank" rel="noopener">Telegram <span class="arr">↗</span></a>
+    <a class="btn btn--ghost" data-link="whatsapp" href="https://wa.me/79965052031" target="_blank" rel="noopener">WhatsApp <span class="arr">↗</span></a>
+    <a class="btn btn--ghost" data-link="phone" href="tel:+79965052031"><span data-fact="phoneText">+7 (996) 505-20-31</span></a>
+  </div>
+</nav>
+
+<main id="main">
+
+<!-- 01A хиро «Проявка» -->
+<section class="hero" id="top" aria-labelledby="h1">
+  <div class="hero-photo" id="hero-photo">
+    <picture>
+      <source type="image/avif" srcset="assets/img/hero-640.avif 640w, assets/img/hero-1200.avif 1200w, assets/img/hero-1920.avif 1920w" sizes="(min-width: 768px) 50vw, 100vw">
+      <source type="image/webp" srcset="assets/img/hero-640.webp 640w, assets/img/hero-1200.webp 1200w, assets/img/hero-1920.webp 1920w" sizes="(min-width: 768px) 50vw, 100vw">
+      <img id="hero-img" src="assets/img/hero-1200.jpg" srcset="assets/img/hero-640.jpg 640w, assets/img/hero-1200.jpg 1200w, assets/img/hero-1920.jpg 1920w" sizes="(min-width: 768px) 50vw, 100vw" width="1920" height="2381" alt="Чёрно-серый рукав с ангелами на фоне оливковой стены студии, Tattoo Vintage" fetchpriority="high" decoding="async">
+    </picture>
+    <div class="hero-veil" aria-hidden="true"></div>
+  </div>
+  <div class="hero-perf" aria-hidden="true"><div class="hero-perf-in" id="hero-perf"></div></div>
+  <div class="hero-text wrap">
+    <p class="mono frame-tag hero-tag">Кадр 01A · Краснодар · цокольный этаж</p>
+    <h1 id="h1" class="display hero-title"><span class="ht-1">Tattoo</span><span class="ht-2">Vintage</span></h1>
+    <p class="lead hero-lead">Чёрно-серый реализм, рукава и спины — от эскиза до последней линии. Два мастера, одна комната, работаем до&nbsp;02:00</p>
+    <div class="hero-cta">
+      <a class="btn" data-link="telegram" href="https://t.me/tattoovintage888" target="_blank" rel="noopener">Прислать идею в Telegram <span class="arr">↗</span></a>
+      <a class="btn btn--ghost" data-link="whatsapp" href="https://wa.me/79965052031" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+    <p class="hero-slogan">с тобой навсегда останется только краска под кожей</p>
+  </div>
+</section>
+
+<div class="perf" aria-hidden="true" data-perf="02A"></div>
+
+<!-- 02 манифест «Фиксаж» -->
+<section class="fix" id="fix" aria-labelledby="fix-h">
+  <div class="wrap grid">
+    <p class="mono frame-tag fix-tag">Кадр 02A · фиксаж</p>
+    <h2 id="fix-h" class="fix-text" data-words>В фотографии снимок закрепляет фиксаж — после него изображение уже не&nbsp;исчезает. У нас эту работу делает <span class="red">игла</span>.</h2>
+    <p class="mono fix-facts">Рукав за один сеанс <i>·</i> перекрываем старые работы <i>·</i> эскиз рисуем вместе</p>
+  </div>
+</section>
+
+<div class="perf" aria-hidden="true" data-perf="03A"></div>
+
+<!-- 03 мастера «Два кадра на одной плёнке» -->
+<section class="masters" id="masters" aria-labelledby="masters-h">
+  <div class="wrap grid">
+    <div class="masters-text">
+      <p class="mono frame-tag">Кадр 03A · два кадра на одной плёнке</p>
+      <h2 id="masters-h" class="h2 dense">Двое при <em>красном</em> свете</h2>
+      <p class="masters-story dense" data-fact="story">Мы начинали в Астрахани — там до сих пор ждут наших приездов. Теперь у нас свой угол в Краснодаре: одна комната, два мастера и только те работы, за которые не стыдно.</p>
+    </div>
+    <div class="masters-film" id="masters-film"></div>
+  </div>
+</section>
+
+<div class="perf" aria-hidden="true" data-perf="04A"></div>
+
+<!-- 04 «Контактный лист» -->
+<section class="works" id="works" aria-labelledby="works-h">
+  <div class="wrap">
+    <div class="works-head grid">
+      <p class="mono frame-tag works-tag">Кадр 04A · отбор</p>
+      <h2 id="works-h" class="h2 dense works-title">Контактный <em>лист</em></h2>
+      <p class="works-sub dense">Наведите лупу — линии выдерживают увеличение</p>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Зоны" id="tabs"></div>
+    <div class="sheet" id="sheet">
+      <div class="sheet-grid" id="sheet-grid" role="list"></div>
+      <p class="sheet-edge mono" aria-hidden="true">KODAK SAFETY FILM · TATTOO VINTAGE · ЛИСТ 1</p>
+    </div>
+    <p class="works-more"><a class="link-arrow mono" data-link="telegram" href="https://t.me/tattoovintage888" target="_blank" rel="noopener">Больше работ — в Telegram <span>↗</span></a></p>
+  </div>
+  <div class="loupe" id="loupe" aria-hidden="true"></div>
+</section>
+
+<div class="perf" aria-hidden="true" data-perf="05A"></div>
+
+<!-- 05 «Сушка» -->
+<section class="drying" id="drying" aria-labelledby="drying-h">
+  <div class="drying-pin" id="drying-pin">
+    <div class="drying-track" id="drying-track">
+      <div class="drying-intro">
+        <p class="mono frame-tag">Кадр 05A · сушка</p>
+        <h2 id="drying-h" class="h2 dense">Большие вещи сохнут <em>дольше</em></h2>
+        <p class="dense">Рукава, спины, ноги — ведём проект от первого эскиза до момента, когда всё соединяется по кругу.</p>
+        <p class="mono drying-hint" aria-hidden="true">тяните отпечаток — он качнётся</p>
+      </div>
+      <div class="line" id="line">
+        <svg class="rope" id="rope" aria-hidden="true"><path/></svg>
+        <ul class="prints" id="prints"></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="perf" aria-hidden="true" data-perf="06A"></div>
+
+<!-- 06 «Пересъёмка» -->
+<section class="retake" id="retake" aria-labelledby="retake-h">
+  <div class="wrap grid">
+    <div class="retake-text">
+      <p class="mono frame-tag">Кадр 06A · пересъёмка</p>
+      <h2 id="retake-h" class="h2 dense">Неудачный кадр — <em>не&nbsp;приговор</em></h2>
+      <p class="dense">Смотрим, что уже есть на коже, и придумываем, как перекрыть или исправить старую работу.</p>
+      <a class="btn dense" data-link="telegram" href="https://t.me/tattoovintage888" target="_blank" rel="noopener">Прислать фото старой тату <span class="arr">↗</span></a>
+    </div>
+    <div class="compare-wrap" id="compare-wrap"></div>
+  </div>
+</section>
+
+<div class="perf" aria-hidden="true" data-perf="07A"></div>
+
+<!-- 07 «Лабораторный таймер» -->
+<section class="timer" id="process" aria-labelledby="timer-h">
+  <div class="timer-bg" aria-hidden="true">
+    <video id="timer-video" muted loop playsinline preload="none" data-poster="assets/img/process-1072.webp">
+      <source data-src="assets/video/process.webm" type="video/webm">
+      <source data-src="assets/video/process.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="timer-pin" id="timer-pin">
+    <div class="wrap grid timer-in">
+      <div class="timer-head">
+        <p class="mono frame-tag">Кадр 07A · таймер</p>
+        <h2 id="timer-h" class="h2">Как проявляется <em>татуировка</em></h2>
+      </div>
+      <div class="dial-wrap"><svg class="dial" id="dial" viewBox="0 0 480 480" aria-hidden="true"></svg></div>
+      <ol class="steps" id="steps"></ol>
+    </div>
+  </div>
+</section>
+
+<div class="perf" aria-hidden="true" data-perf="08A"></div>
+
+<!-- 08 «Первый раз» -->
+<section class="first" id="first" aria-labelledby="first-h">
+  <div class="wrap">
+    <div class="first-head grid">
+      <p class="mono frame-tag first-tag">Кадр 08A · первый раз</p>
+      <h2 id="first-h" class="h2 dense first-title">Первая тату? Почти все сначала <em>боялись</em></h2>
+    </div>
+    <ul class="fears" id="fears"></ul>
+  </div>
+  <div class="strips" aria-label="Цитаты из отзывов">
+    <div class="strip" id="strip-a"></div>
+    <div class="strip strip--rev" id="strip-b"></div>
+  </div>
+  <div class="wrap first-foot">
+    <a class="link-arrow mono" data-link="reviews" href="https://yandex.ru/maps/org/tattoo_vintage/115039352448/reviews/" target="_blank" rel="noopener">Все отзывы — на Яндекс Картах <span>↗</span></a>
+    <p class="mono first-award" data-fact="award">Хорошее место 2026 · Яндекс Карты</p>
+  </div>
+</section>
+
+<div class="perf" aria-hidden="true" data-perf="09A"></div>
+
+<!-- 09 «Ещё в студии» -->
+<section class="more" id="more" aria-labelledby="more-h">
+  <div class="wrap">
+    <p class="mono frame-tag">Кадр 09A · ещё в студии</p>
+    <h2 id="more-h" class="sr-only">Ещё в студии</h2>
+    <ul class="svc" id="svc"></ul>
+    <p class="mono svc-note">Цены на пирсинг уточняйте в сообщениях</p>
+    <div class="gift grid">
+      <div class="envelope" aria-hidden="true">
+        <span class="env-band"></span>
+        <span class="env-flap"></span>
+        <span class="env-stamp mono">Не вскрывать на свету</span>
+        <span class="env-brand"><svg><use href="#nazar"/></svg>Tattoo Vintage · фотобумага</span>
+      </div>
+      <div class="gift-text">
+        <h3 class="gift-title">Подарить сеанс</h3>
+        <p>Подарочный сертификат — на день рождения, годовщину или просто так.</p>
+        <a class="btn" data-link="telegram" href="https://t.me/tattoovintage888" target="_blank" rel="noopener">Узнать про сертификат <span class="arr">↗</span></a>
+      </div>
+    </div>
+  </div>
+  <div class="svc-peek" id="svc-peek" aria-hidden="true"></div>
+</section>
+
+<div class="perf" aria-hidden="true" data-perf="10A"></div>
+
+<!-- 10 «Ночная смена» -->
+<section class="night" id="night" aria-labelledby="night-h">
+  <div class="wrap grid">
+    <div class="night-left">
+      <p class="mono frame-tag">Кадр 10A · ночная смена</p>
+      <p class="night-clock" aria-hidden="true" data-clock>--<span class="colon">:</span>--</p>
+      <h2 id="night-h" class="night-lead">Принимаем по записи до 02:00. Иногда сеанс длится до раннего утра — поэтому в&nbsp;8&nbsp;утра мы ещё спим.</h2>
+      <ol class="descent" aria-label="Адрес">
+        <li data-fact="street">ул. Петра Метальникова, 28</li>
+        <li data-fact="entrance">вход 2</li>
+        <li data-fact="floor">цокольный этаж</li>
+        <li data-fact="room">помещение 6/8</li>
+      </ol>
+      <p class="mono night-amen" id="amen">Ост. «ЖК Времена Года» · парковка · велопарковка · Wi-Fi · наличные и перевод</p>
+    </div>
+    <div class="map" id="map">
+      <div class="map-sketch" id="map-sketch"></div>
+      <div class="map-actions">
+        <button class="btn btn--ghost" id="map-btn" type="button">Показать на карте</button>
+        <a class="link-arrow mono" data-link="route" href="https://yandex.ru/maps/org/tattoo_vintage/115039352448/" target="_blank" rel="noopener">Построить маршрут <span>↗</span></a>
+      </div>
+    </div>
+  </div>
+  <ul class="rows wrap" id="rows"></ul>
+</section>
+
+</main>
+
+<!-- 11 «Свет включают» -->
+<footer class="foot" id="foot">
+  <div class="wrap">
+    <p class="mono frame-tag foot-tag">Кадр 11A · свет включают</p>
+    <p class="foot-slogan display"><span>С тобой навсегда останется</span><span><em>только краска</em></span><span>под кожей</span></p>
+    <div class="foot-row">
+      <svg class="foot-mark" aria-hidden="true"><use href="#nazar"/></svg>
+      <p class="foot-contacts" id="foot-contacts"></p>
+    </div>
+    <p class="foot-copy mono">© 2026 Tattoo Vintage · Краснодар</p>
+    <p class="foot-joke mono" data-fact="joke">я не косячу, а экспериментирую</p>
+  </div>
+</footer>
+
+<div class="dock" id="dock">
+  <a class="btn" data-link="telegram" href="https://t.me/tattoovintage888" target="_blank" rel="noopener">Telegram</a>
+  <a class="btn btn--ghost" data-link="whatsapp" href="https://wa.me/79965052031" target="_blank" rel="noopener">WhatsApp</a>
+</div>
+
+<dialog class="viewer" id="viewer" aria-label="Увеличитель">
+  <div class="viewer-stage" id="viewer-stage"><img id="viewer-img" alt=""></div>
+  <button class="viewer-x mono" id="viewer-x" type="button" aria-label="Закрыть">Esc ✕</button>
+  <button class="viewer-nav viewer-prev" id="viewer-prev" type="button" aria-label="Предыдущий кадр">←</button>
+  <button class="viewer-nav viewer-next" id="viewer-next" type="button" aria-label="Следующий кадр">→</button>
+  <div class="viewer-foot">
+    <p class="mono viewer-cap"><span id="viewer-cap"></span><span id="viewer-count"></span></p>
+    <div class="viewer-thumbs" id="viewer-thumbs"></div>
+  </div>
+</dialog>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

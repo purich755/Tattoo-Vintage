@@ -1,0 +1,29 @@
+/* Дизайн-токены «Проявки»: тёмная комната, серебро отпечатка, один красный лабораторный фонарь */
+:root {
+  --ink: #0C0B0A;          /* фон «тёмная комната» */
+  --ink-2: #171513;        /* подложки, кадры */
+  --graphite: #2A2724;     /* линии, перфорация */
+  --fog: #8C8982;          /* вторичный текст */
+  --silver: #C8C5BE;       /* основной текст */
+  --paper: #ECEBE7;        /* холодная фотобумага, НЕ кремовая */
+  --safelight: #C4261C;    /* единственный акцент */
+  --safelight-glow: rgba(196, 38, 28, .32);
+  --safelight-text: #E4544A; /* красный для мелкого текста на тёмном — контраст ≥ 4.5 */
+
+  --f-display: "Cormorant Garamond", "Times New Roman", serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "Courier New", monospace;
+  --f-text: "Manrope", system-ui, sans-serif;
+  --f-hand: "Caveat", "Segoe Print", cursive;
+
+  --fs-12: .75rem; --fs-14: .875rem; --fs-16: 1rem; --fs-20: 1.25rem;
+  --fs-28: 1.75rem; --fs-44: 2.75rem; --fs-72: 4.5rem;
+  --fs-giant: clamp(96px, 16vw, 260px);
+
+  --ease: cubic-bezier(.22, 1, .36, 1);
+  --radius: 2px;
+  --gutter: 24px; --side: 40px; --max: 1440px;
+  --hdr: 64px;
+}
+@media (max-width: 767px) {
+  :root { --side: 16px; --gutter: 12px; --fs-72: 2.75rem; --fs-44: 2.125rem; --hdr: 56px; }
+}
